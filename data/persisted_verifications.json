@@ -1,0 +1,44 @@
+{
+  "te-jam-101": {
+    "verification_status": "CONFIRMED",
+    "verified_class": "Gas Flare",
+    "verified_by": "Pooja Sharma (NTRO-GEO-4421)",
+    "verified_by_name": "Pooja Sharma",
+    "verified_at": "2026-09-05T08:53:31.076Z",
+    "verification_reason": "Satellite telemetry and OSM refinery proximity verify persistent gas flare activity.",
+    "audit_trail": [
+      {
+        "timestamp": "2026-09-05T08:53:31.076Z",
+        "action": "CONFIRMED",
+        "performed_by": "Pooja Sharma [SENIOR_GIS_ANALYST]",
+        "user_id": "usr-ntro-002",
+        "badge_number": "NTRO-GEO-4421",
+        "previous_status": "UNVERIFIED",
+        "ai_predicted_class": "Gas Flare",
+        "verified_class": "Gas Flare",
+        "reason": "Satellite telemetry and OSM refinery proximity verify persistent gas flare activity."
+      }
+    ]
+  },
+  "te-haz-201": {
+    "verification_status": "RECLASSIFIED",
+    "verified_class": "Gas Flare",
+    "verified_by": "Pooja Sharma (NTRO-GEO-4421)",
+    "verified_by_name": "Pooja Sharma",
+    "verified_at": "2026-09-05T08:54:05.805Z",
+    "verification_reason": "Plant documentation and continuous flare stack telemetry confirm controlled flaring rather than structural industrial fire.",
+    "audit_trail": [
+      {
+        "timestamp": "2026-09-05T08:54:05.805Z",
+        "action": "RECLASSIFIED",
+        "performed_by": "Pooja Sharma [SENIOR_GIS_ANALYST]",
+        "user_id": "usr-ntro-002",
+        "badge_number": "NTRO-GEO-4421",
+        "previous_status": "UNVERIFIED",
+        "ai_predicted_class": "Industrial Fire",
+        "verified_class": "Gas Flare",
+        "reason": "Plant documentation and continuous flare stack telemetry confirm controlled flaring rather than structural industrial fire."
+      }
+    ]
+  }
+}

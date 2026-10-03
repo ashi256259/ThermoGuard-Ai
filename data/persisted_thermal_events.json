@@ -1,0 +1,15 @@
+[
+  {
+    "id": "te-adhoc-370052",
+    "latitude": 22.3595,
+    "longitude": 69.8655,
+    "timestamp": "2026-09-05T08:36:10.052Z",
+    "brightness": 348.2,
+    "frp": 38.5,
+    "confidence": 92,
+    "satellite": "VIIRS_SNPP",
+    "source": "USER_CUSTOM_INSPECTION",
+    "cluster_id": "cls-jamnagar-01",
+    "daynight": "D"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "cls-jamnagar-01": {
+    "cluster_id": "cls-jamnagar-01",
+    "status": "SUCCESS",
+    "behaviour": "Transient",
+    "first_seen": "2026-09-03T04:30:00.000Z",
+    "last_seen": "2026-09-05T08:36:10.052Z",
+    "first_observed_at": "2026-09-03T04:30:00.000Z",
+    "last_observed_at": "2026-09-05T08:36:10.052Z",
+    "observation_count": 2,
+    "active_days": 2,
+    "inactive_days": 2,
+    "active_day_ratio": 0.5,
+    "active_duration_days": 2.17,
+    "active_duration_hours": 52.1,
+    "persistence_days": 3,
+    "persistence_score": 0.179,
+    "persistence_class": "TRANSIENT",
+    "is_persistent": false,
+    "frequency_per_week": 6.45,
+    "observations_per_day": 1,
+    "recurrence_count": 1,
+    "recurrence_ratio": 1,
+    "distinct_active_periods": 2,
+    "average_revisit_hours": 52.1,
+    "median_revisit_hours": 52.1,
+    "min_revisit_hours": 52.1,
+    "max_revisit_hours": 52.1,
+    "seasonality_score": 0,
+    "seasonal_concentration": 0,
+    "seasonal_pattern": "INSUFFICIENT_DATA",
+    "seasonality_flag": false,
+    "peak_month": null,
+    "active_months": [
+      9
+    ],
+    "monthly_distribution": {
+      "9": 2
+    },
+    "temporal_confidence": 0.44,
+    "ml_features": {
+      "observation_count": 2,
+      "active_days": 2,
+      "active_duration": 2.17,
+      "observation_frequency": 6.45,
+      "recurrence_count": 1,
+      "recurrence_ratio": 1,
+      "average_revisit_interval": 52.1,
+      "median_revisit_interval": 52.1,
+      "persistence_score": 0.179,
+      "seasonality_score": 0,
+      "seasonal_concentration": 0
+    }
+  }
+}

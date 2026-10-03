@@ -1,0 +1,197 @@
+{
+  "model_version": "random_forest_v1.0.0",
+  "algorithm": "RandomForestClassifier",
+  "framework": "scikit-learn",
+  "training_timestamp": "2026-09-03T20:35:52.754699+00:00",
+  "target_classes": [
+    "Industrial Fire",
+    "Gas Flare",
+    "Agricultural Burning",
+    "Wildfire",
+    "Mining",
+    "Other"
+  ],
+  "feature_names": [
+    "brightness",
+    "frp",
+    "firms_confidence",
+    "scan",
+    "track",
+    "daynight_flag",
+    "distance_to_industry_km",
+    "industrial_facility_count",
+    "industrial_nearby_flag",
+    "mining_nearby_flag",
+    "infrastructure_nearby_flag",
+    "forest_context",
+    "agricultural_context",
+    "urban_context",
+    "open_land_context",
+    "observation_count",
+    "active_days",
+    "active_duration",
+    "observation_frequency",
+    "recurrence_count",
+    "recurrence_ratio",
+    "average_revisit_interval",
+    "median_revisit_interval",
+    "persistence_score",
+    "seasonality_score",
+    "seasonal_concentration"
+  ],
+  "feature_count": 26,
+  "hyperparameters": {
+    "n_estimators": 100,
+    "max_depth": 10,
+    "min_samples_split": 4,
+    "min_samples_leaf": 2,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "dataset_info": {
+    "dataset_name": "SIH26162_Calibrated_Development_Baseline",
+    "dataset_version": "v1.0.0",
+    "total_observations": 757,
+    "total_clusters": 96,
+    "train_observations": 629,
+    "test_observations": 128,
+    "is_development_demo_data": true,
+    "data_provenance": "Calibrated multi-temporal clusters simulating NASA FIRMS VIIRS/MODIS, OSM industrial footprints, and ESA LULC",
+    "limitation_notice": "Curated development baseline. Calibrated to avoid data leakage via cluster grouping. Designed for seamless replacement with ground-truth annotated FIRMS observations without pipeline modification."
+  },
+  "evaluation_metrics": {
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        41,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        16,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        27,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        37,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "per_class_metrics": {
+      "Industrial Fire": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "Gas Flare": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 41.0
+      },
+      "Agricultural Burning": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 16.0
+      },
+      "Wildfire": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 27.0
+      },
+      "Mining": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 37.0
+      },
+      "Other": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 128.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 128.0
+      }
+    }
+  },
+  "feature_importances": {
+    "recurrence_count": 0.114,
+    "mining_nearby_flag": 0.0787,
+    "median_revisit_interval": 0.0742,
+    "distance_to_industry_km": 0.0727,
+    "seasonality_score": 0.0656,
+    "industrial_nearby_flag": 0.064,
+    "agricultural_context": 0.0628,
+    "recurrence_ratio": 0.0626,
+    "seasonal_concentration": 0.0614,
+    "average_revisit_interval": 0.0582,
+    "forest_context": 0.0575,
+    "brightness": 0.0398,
+    "observation_count": 0.0379,
+    "persistence_score": 0.0294,
+    "observation_frequency": 0.0293,
+    "active_days": 0.0239,
+    "active_duration": 0.0201,
+    "infrastructure_nearby_flag": 0.0167,
+    "frp": 0.0145,
+    "industrial_facility_count": 0.013,
+    "open_land_context": 0.0022,
+    "scan": 0.001,
+    "urban_context": 0.0004,
+    "firms_confidence": 0.0001,
+    "track": 0.0,
+    "daynight_flag": 0.0
+  }
+}
